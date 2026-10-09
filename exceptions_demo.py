@@ -31,5 +31,6 @@ def demo_exceptions():
             demo_function()
             print("After calling demo_function")
         except:
-            print("An exception occurred")
+            print("An exception occurred:")
 
+demo_exceptions()
